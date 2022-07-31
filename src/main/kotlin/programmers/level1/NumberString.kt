@@ -13,28 +13,34 @@ class NumberString {
         val result = StringBuilder()
 
         var index = 0
-        while (true) {
-            if (index >= s.length)
-                break
 
-            val char = s[index]
+        while(true) {
 
+            if (index >= s.length) break
+
+            val char = s[index] //문자열의 i번째 문자
+
+            //char를 Int로 캐스팅. 캐스팅할 수 없는 type이면 null 반환
             val charToDigit = char.digitToIntOrNull()
 
+            //char가 숫자라면 그대로 결과에 삽입
             if (charToDigit != null) {
                 result.append(charToDigit)
                 index++
                 continue
             }
 
-            val firstAndSecond =
-                if (index == s.length - 1)
-                    s[index].toString()
-                else
-                    "${s[index]}${s[index + 1]}"
-            val numbers = Numbers.of(firstAndSecond)
-            index += numbers.spellingLength
-            result.append(numbers.number)
+            //문자열일 때
+            //첫 두글자. one이라면 on, three라면 th
+            val firstAAndSecond = "${s[index]}${s[index+1]}"
+            //첫 두글자를 이용해서 어떤 숫자인지 판단
+            val number = Numbers.of(firstAAndSecond)
+            //결과에 숫자를 담는다.
+            result.append(number.number)
+
+            //index를 숫자의 영어 스펠링 개수 만큼 늘린다.(one이라면 +3, three라면 +5)
+            index += number.spellingLength
+
         }
 
         return result.toString().toInt()
@@ -56,6 +62,7 @@ class NumberString {
         NINE(number = 9, spellingLength = 4),
         ;
 
+        //첫 두글자를 받아서 알맞은 enum을 반환
         companion object {
             fun of(str: String): Numbers {
                 return when (str) {
@@ -75,6 +82,5 @@ class NumberString {
         }
     }
 }
-
 
 
