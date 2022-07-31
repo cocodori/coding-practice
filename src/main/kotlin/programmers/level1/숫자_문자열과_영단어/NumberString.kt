@@ -1,4 +1,4 @@
-package programmers.level1
+package programmers.level1.숫자_문자열과_영단어
 
 fun main() {
     println(NumberString().solution("one4seveneight")) // 1478
@@ -7,6 +7,9 @@ fun main() {
     println(NumberString().solution("123")) // 123
 }
 
+/**
+ * 내 풀이
+ */
 class NumberString {
 
     fun solution(s: String): Int {
