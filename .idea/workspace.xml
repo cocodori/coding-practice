@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99034266-97fc-4b5f-9dbc-fca8366632a5" name="Changes" comment="equals overriding &amp; overloading test">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/books">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/books/kotlin-in-action">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/problem-solving">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/problem-solving">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Record" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1659250973" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1659250972" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt:///Users/hoon/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/221.5787.30/IntelliJ IDEA.app/Contents/jbr/Contents/Home!/java.base/java/util/LinkedList.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///Users/hoon/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/221.5787.30/IntelliJ IDEA.app/Contents/jbr/Contents/Home!/java.base/java/util/Queue.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ch4TDPo7poWJBRm9IGxeKT5rzu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "jbr-11",
+    "last_opened_file_path": "/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/src/main/kotlin/jake/fu/p3",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/jake/fu/p3" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/programmers/level1/신규_아이디_추천" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/programmers/test" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/programmers/level1/숫자_문자열과_영단어" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problem-solving/src/main/java/playground/problem" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="effectivejava.synchronize" />
+      <recent name="leetcode.longestsubstringwithoutrepeatingcharacters" />
+      <recent name="programmers.level1.주식가격" />
+      <recent name="programmers.level1.올바른_괄호" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CallByValue">
+    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="jbr-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="playground.problem.CallByValue" />
+      <module name="problem-solving.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.problem.FibonacciKt" />
+      <module name="problem-solving.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.problem.FibonacciKt" />
+      <module name="coding-test.problem-solving.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="신고결과받기Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.problem.programmers.신고결과받기Kt" />
+      <module name="coding-test.problem-solving.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kotlininaction.MainKt" />
+      <module name="kotlin-in-action.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="books.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="playground.books.BooksApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KotlinInActionApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kotlin-in-action.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kotlininaction.KotlinInActionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KotlinInActionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kotlin-in-action" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kotlininaction.KotlinInActionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemSolvingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="problem-solving.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.playground.problem.ProblemSolvingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CallByValue" />
+        <item itemvalue="Kotlin.FibonacciKt (1)" />
+        <item itemvalue="Kotlin.FibonacciKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.신고결과받기Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99034266-97fc-4b5f-9dbc-fca8366632a5" name="Changes" comment="" />
+      <created>1659241488861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659241488861</updated>
+      <workItem from="1659241490175" duration="5475000" />
+      <workItem from="1659761767764" duration="6238000" />
+      <workItem from="1660541379130" duration="9573000" />
+      <workItem from="1660971461173" duration="21857000" />
+      <workItem from="1661305938244" duration="4657000" />
+      <workItem from="1661479648440" duration="1214000" />
+      <workItem from="1661677053459" duration="3708000" />
+      <workItem from="1661872298858" duration="1507000" />
+      <workItem from="1663132395164" duration="274000" />
+      <workItem from="1663235150816" duration="7123000" />
+      <workItem from="1663715973950" duration="2953000" />
+      <workItem from="1663748661827" duration="5455000" />
+      <workItem from="1663802969774" duration="4459000" />
+      <workItem from="1664073442189" duration="52000" />
+      <workItem from="1664073551718" duration="1527000" />
+      <workItem from="1664200780274" duration="9000" />
+      <workItem from="1664493164199" duration="3345000" />
+      <workItem from="1664670894042" duration="93011000" />
+      <workItem from="1665905786341" duration="8999000" />
+      <workItem from="1666020759840" duration="7319000" />
+      <workItem from="1666083868069" duration="5363000" />
+      <workItem from="1666412830819" duration="11737000" />
+      <workItem from="1666432416033" duration="1579000" />
+      <workItem from="1666497203974" duration="9403000" />
+      <workItem from="1666618562886" duration="3052000" />
+      <workItem from="1667023702653" duration="4839000" />
+      <workItem from="1667362008470" duration="1712000" />
+      <workItem from="1668067104497" duration="8313000" />
+      <workItem from="1668132992393" duration="3711000" />
+      <workItem from="1668243846886" duration="1066000" />
+      <workItem from="1668574187501" duration="1717000" />
+    </task>
+    <task id="LOCAL-00001" summary="equals overriding &amp; overloading test">
+      <created>1666618737755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666618737755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="키패드 누르기" />
+    <MESSAGE value="equals overriding &amp; overloading test" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals overriding &amp; overloading test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/숫자_문자열과_영단어/NumberString.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/키패드_누르기/Solution.kt</url>
+          <line>43</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/키패드_누르기/Solution.kt</url>
+          <line>201</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/기능개발/Solution.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/pocketmon/Solution.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/올바른_괄호/Solution.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/올바른_괄호/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/주식가격/Solution.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/leetcode/longestsubstringwithoutrepeatingcharacters/Solution.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/leetcode/longestsubstringwithoutrepeatingcharacters/Solution3WithJava.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/gamemap/Solution2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/피로도/Solution.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/baekjoon/basic/Main2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="item1==6  &amp;&amp; item2==7" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/authur/coupang/Solution1.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/jake/p3/Solution.java</url>
+          <line>95</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
