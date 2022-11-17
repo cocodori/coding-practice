@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99034266-97fc-4b5f-9dbc-fca8366632a5" name="Changes" comment="equals overriding &amp; overloading test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/books/src/test/kotlin/kotlininaction/KotlinInActionApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/src/test/kotlin/kotlininaction/KotlinInActionApplicationTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/books/kotlin-in-action">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/books/learning-functional-programming">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/problem-solving">
@@ -109,16 +116,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "jbr-11",
-    "last_opened_file_path": "/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/src/main/kotlin/jake/fu/p3",
+    "last_opened_file_path": "/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/src/main/kotlin/kotlininaction/ch3",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "2a053e065548cb2849c820b9f0ff7a11"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/books/kotlin-in-action/src/main/kotlin/kotlininaction/ch3" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/jake/fu/p3" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/programmers/level1/신규_아이디_추천" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/programmers/test" />
@@ -134,46 +143,38 @@
       <recent name="programmers.level1.올바른_괄호" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CallByValue">
-    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="jbr-11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="playground.problem.CallByValue" />
-      <module name="problem-solving.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Kotlin.ReplicateKt">
+    <configuration name="MaximumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.MaximumKt" />
+      <module name="playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.problem.FibonacciKt" />
-      <module name="problem-solving.main" />
+    <configuration name="ProblemKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.ProblemKt" />
+      <module name="playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.problem.FibonacciKt" />
-      <module name="coding-test.problem-solving.main" />
+    <configuration name="ReplicateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.ReplicateKt" />
+      <module name="playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="신고결과받기Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.problem.programmers.신고결과받기Kt" />
-      <module name="coding-test.problem-solving.main" />
+    <configuration name="ReversStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.ReversStringKt" />
+      <module name="playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kotlininaction.MainKt" />
-      <module name="kotlin-in-action.main" />
+    <configuration name="ToBinaryKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.ToBinaryKt" />
+      <module name="playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,6 +200,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LearningFunctionalProgrammingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="playground.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="playground.functionalkotlin.LearningFunctionalProgrammingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProblemSolvingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="problem-solving.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.playground.problem.ProblemSolvingApplication" />
@@ -208,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CallByValue" />
-        <item itemvalue="Kotlin.FibonacciKt (1)" />
-        <item itemvalue="Kotlin.FibonacciKt" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.신고결과받기Kt" />
+        <item itemvalue="Kotlin.ReplicateKt" />
+        <item itemvalue="Kotlin.ToBinaryKt" />
+        <item itemvalue="Kotlin.ReversStringKt" />
+        <item itemvalue="Kotlin.MaximumKt" />
+        <item itemvalue="Kotlin.ProblemKt" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +262,9 @@
       <workItem from="1668067104497" duration="8313000" />
       <workItem from="1668132992393" duration="3711000" />
       <workItem from="1668243846886" duration="1066000" />
-      <workItem from="1668574187501" duration="1717000" />
+      <workItem from="1668574187501" duration="4559000" />
+      <workItem from="1668580210738" duration="5888000" />
+      <workItem from="1668665852582" duration="7011000" />
     </task>
     <task id="LOCAL-00001" summary="equals overriding &amp; overloading test">
       <created>1666618737755</created>
@@ -307,6 +317,16 @@
           <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/기능개발/Solution.kt</url>
           <line>13</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/books/learning-functional-programming/src/main/kotlin/playground/functionalkotlin/ch03/reversString.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/books/learning-functional-programming/src/main/kotlin/playground/functionalkotlin/ch03/reversString.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/problem-solving/src/main/java/playground/problem/programmers/level1/pocketmon/Solution.java</url>
@@ -369,5 +389,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
