@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99034266-97fc-4b5f-9dbc-fca8366632a5" name="Changes" comment="equals overriding &amp; overloading test">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/src/test/kotlin/kotlininaction/KotlinInActionApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/books/kotlin-in-action/src/test/kotlin/kotlininaction/KotlinInActionApplicationTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +53,8 @@
         <option value="Kotlin File" />
         <option value="Record" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,21 +99,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "jbr-11",
-    "last_opened_file_path": "/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/src/main/kotlin/kotlininaction/ch3",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "2a053e065548cb2849c820b9f0ff7a11"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/src/main/kotlin/kotlininaction/ch3&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2a053e065548cb2849c820b9f0ff7a11&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/books/kotlin-in-action/src/main/kotlin/kotlininaction/ch3" />
@@ -143,16 +132,22 @@
       <recent name="programmers.level1.올바른_괄호" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ReplicateKt">
-    <configuration name="MaximumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.MaximumKt" />
-      <module name="playground.main" />
+  <component name="RunManager" selected="Application.Travel">
+    <configuration name="Travel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.ds.island.Travel" />
+      <module name="problem-solving.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.ds.island.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.ProblemKt" />
+    <configuration name="MaximumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.MaximumKt" />
       <module name="playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Travel" />
         <item itemvalue="Kotlin.ReplicateKt" />
         <item itemvalue="Kotlin.ToBinaryKt" />
         <item itemvalue="Kotlin.ReversStringKt" />
         <item itemvalue="Kotlin.MaximumKt" />
-        <item itemvalue="Kotlin.ProblemKt" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +260,8 @@
       <workItem from="1668574187501" duration="4559000" />
       <workItem from="1668580210738" duration="5888000" />
       <workItem from="1668665852582" duration="7011000" />
+      <workItem from="1668689838325" duration="26000" />
+      <workItem from="1670976261820" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="equals overriding &amp; overloading test">
       <created>1666618737755</created>
