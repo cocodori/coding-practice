@@ -6,9 +6,52 @@ public class TestCaseTest extends TestCase {
         super(name);
     }
 
+    public static TestSuite suite() {
+        TestSuite suite = new TestSuite();
+
+        suite.add(new TestCaseTest("testTemplateMethod"));
+        suite.add(new TestCaseTest("testResult"));
+        suite.add(new TestCaseTest("testFailedResultFormatting"));
+        suite.add(new TestCaseTest("testFailedResult"));
+        suite.add(new TestCaseTest("testSuite"));
+
+        return suite;
+    }
+
     public void testTemplateMethod() {
         WasRun wasRun = new WasRun("testMethod");
-        wasRun.run();
+        TestResult result = new TestResult();
+        wasRun.run(result);
         Assert.assertEquals("setUp testMethod tearDown", wasRun.log);
+    }
+
+    public void testResult() {
+        WasRun wasRun = new WasRun("testMethod");
+        TestResult result = new TestResult();
+        wasRun.run(result);
+        Assert.assertEquals("1 run, 0 failed", result.getSummary());
+    }
+
+    public void testFailedResultFormatting() {
+        TestResult result = new TestResult();
+        result.testStarted();
+        result.testFailed();
+        Assert.assertEquals("1 run, 1 failed", result.getSummary());
+    }
+
+    public void testFailedResult() {
+        WasRun wasRun = new WasRun("testBrokenMethod");
+        TestResult result = new TestResult();
+        wasRun.run(result);
+        Assert.assertEquals("1 run, 1 failed", result.getSummary());
+    }
+
+    public void testSuite() {
+        TestResult result = new TestResult();
+        TestSuite suite = new TestSuite();
+        suite.add(new WasRun("testMethod"));
+        suite.add(new WasRun("testBrokenMethod"));
+        suite.run(result);
+        Assert.assertEquals("2 run, 1 failed", result.getSummary());
     }
 }

@@ -3,21 +3,24 @@ package xunit;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class TestCase {
+public class TestCase implements Test {
     protected final String name;
 
     public TestCase(String name) {
         this.name = name;
     }
 
-    public void run() {
+    @Override
+    public void run(TestResult result) {
+        result.testStarted();
         setUp();
 
         try {
             Method method = getClass().getMethod(name);
             method.invoke(this);
-        } catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+//            e.printStackTrace();
+            result.testFailed();
         }
 
         tearDown();

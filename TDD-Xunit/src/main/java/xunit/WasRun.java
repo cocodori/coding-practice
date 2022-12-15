@@ -14,6 +14,10 @@ public class WasRun extends TestCase {
 
     }
 
+    public void testBrokenMethod() {
+        throw new RuntimeException();
+    }
+
     @Override
     public void setUp() {
         log = "setUp";
