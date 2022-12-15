@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/books/kotlin-in-action" />
+    <file type="web" url="file://$PROJECT_DIR$/books/kotlin-in-action/TDD-Xunit" />
     <file type="web" url="file://$PROJECT_DIR$/books/learning-functional-programming" />
+    <file type="web" url="file://$PROJECT_DIR$/problem-solving" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="jbr-11" project-jdk-type="JavaSDK" />
 </project>

@@ -17,6 +17,15 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/books/kotlin-in-action/TDD-Xunit" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/books/kotlin-in-action/TDD-Xunit" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/books/learning-functional-programming" />
         <option name="modules">
           <set>

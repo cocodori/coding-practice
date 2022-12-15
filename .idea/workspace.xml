@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99034266-97fc-4b5f-9dbc-fca8366632a5" name="Changes" comment="equals overriding &amp; overloading test">
+      <change afterPath="$PROJECT_DIR$/TDD-Xunit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-Xunit/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-Xunit/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-Xunit/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-Xunit/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-Xunit/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-Xunit/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +29,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/books/kotlin-in-action">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/books/kotlin-in-action/TDD-Xunit">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/books/learning-functional-programming">
@@ -38,9 +50,28 @@
         <task path="$PROJECT_DIR$/problem-solving">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/books/kotlin-in-action/xUnit-TDD">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="xUnit-TDD" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="xUnit-TDD" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="xUnit-TDD" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -105,7 +136,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/src/main/kotlin/kotlininaction/ch3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -132,7 +163,7 @@
       <recent name="programmers.level1.올바른_괄호" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Travel">
+  <component name="RunManager" selected="Gradle./Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/xUnit-TDD [build]">
     <configuration name="Travel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="playground.ds.island.Travel" />
       <module name="problem-solving.main" />
@@ -146,22 +177,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.MaximumKt" />
-      <module name="playground.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/xUnit-TDD [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/books/kotlin-in-action/xUnit-TDD" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/xUnit-TDD [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/books/kotlin-in-action/xUnit-TDD" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="ReplicateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.ReplicateKt" />
-      <module name="playground.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReversStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.functionalkotlin.ch03.ReversStringKt" />
       <module name="playground.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle./Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/xUnit-TDD [build]" />
+        <item itemvalue="Gradle./Users/hoon/Dropbox/Mac/Documents/Learning/coding-test/books/kotlin-in-action/xUnit-TDD [clean]" />
         <item itemvalue="Application.Travel" />
         <item itemvalue="Kotlin.ReplicateKt" />
         <item itemvalue="Kotlin.ToBinaryKt" />
-        <item itemvalue="Kotlin.ReversStringKt" />
-        <item itemvalue="Kotlin.MaximumKt" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +321,9 @@
       <workItem from="1668665852582" duration="7011000" />
       <workItem from="1668689838325" duration="26000" />
       <workItem from="1670976261820" duration="1014000" />
+      <workItem from="1671103344793" duration="104000" />
+      <workItem from="1671103510414" duration="20000" />
+      <workItem from="1671103532819" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="equals overriding &amp; overloading test">
       <created>1666618737755</created>
