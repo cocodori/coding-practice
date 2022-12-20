@@ -1,4 +1,4 @@
-package stream.example;
+package stream.ch05;
 
 public class Transaction {
     private final Trader trader;
