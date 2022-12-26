@@ -1,9 +1,9 @@
-package org.example.framework.adapter.input;
+package org.example.ch01.framework.adapter.input;
 
-import org.example.application.RouterViewInputPort;
-import org.example.application.RouterViewUseCase;
-import org.example.domain.Router;
-import org.example.domain.RouterType;
+import org.example.ch01.application.RouterViewInputPort;
+import org.example.ch01.application.RouterViewUseCase;
+import org.example.ch01.domain.Router;
+import org.example.ch01.domain.RouterType;
 
 import java.util.List;
 
@@ -21,6 +21,6 @@ public class RouterViewCLIAdapter {
     }
 
     private void setAdapters() {
-        this.routerViewUseCase = new RouterViewInputPort(RouterViewFileAdapter.get);
+        this.routerViewUseCase = new RouterViewInputPort(RouterViewFileAdapter.getInstance());
     }
 }

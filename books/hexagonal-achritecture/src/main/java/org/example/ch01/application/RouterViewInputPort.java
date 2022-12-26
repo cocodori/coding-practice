@@ -1,6 +1,6 @@
-package org.example.application;
+package org.example.ch01.application;
 
-import org.example.domain.Router;
+import org.example.ch01.domain.Router;
 
 import java.util.List;
 import java.util.function.Predicate;

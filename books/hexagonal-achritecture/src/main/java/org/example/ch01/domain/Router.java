@@ -1,4 +1,4 @@
-package org.example.domain;
+package org.example.ch01.domain;
 
 import java.util.List;
 import java.util.function.Predicate;
