@@ -1,4 +1,4 @@
-package org.example.ch02.domain;
+package org.example.ch02.domain.vo;
 
 public class IP {
     private final String address;

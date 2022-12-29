@@ -1,11 +1,12 @@
-package org.example.ch02.domain;
+package org.example.ch02.domain.entity;
 
 import org.example.ch01.domain.RouterId;
 import org.example.ch01.domain.RouterType;
+import org.example.ch02.domain.vo.IP;
+import org.example.ch02.domain.vo.Network;
 
 import java.util.List;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
 public class Router {
     private final RouterType routerType;
@@ -41,7 +42,7 @@ public class Router {
         return networkSwitch.getNetworks();
     }
 
-    private RouterType getRouterType() {
+    public RouterType getRouterType() {
         return this.routerType;
     }
 

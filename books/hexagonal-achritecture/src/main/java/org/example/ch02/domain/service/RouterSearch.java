@@ -1,4 +1,6 @@
-package org.example.ch02.domain;
+package org.example.ch02.domain.service;
+
+import org.example.ch02.domain.entity.Router;
 
 import java.util.List;
 import java.util.function.Predicate;

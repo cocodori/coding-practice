@@ -1,4 +1,4 @@
-package org.example.ch02.domain;
+package org.example.ch02.domain.vo;
 
 public class Network {
     private final IP address;
@@ -18,5 +18,9 @@ public class Network {
 
     public int getCidr() {
         return cidr;
+    }
+
+    public String getName() {
+        return this.name;
     }
 }

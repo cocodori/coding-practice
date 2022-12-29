@@ -1,4 +1,4 @@
-package org.example.ch02.domain;
+package org.example.ch02.domain.vo;
 
 import java.util.UUID;
 

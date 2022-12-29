@@ -1,4 +1,9 @@
-package org.example.ch02.domain;
+package org.example.ch02.domain.entity;
+
+import org.example.ch02.domain.vo.IP;
+import org.example.ch02.domain.vo.Network;
+import org.example.ch02.domain.vo.SwitchId;
+import org.example.ch02.domain.vo.SwitchType;
 
 import java.util.ArrayList;
 import java.util.Arrays;
