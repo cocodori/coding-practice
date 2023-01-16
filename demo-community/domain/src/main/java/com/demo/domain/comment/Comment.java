@@ -18,7 +18,7 @@ public class Comment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String memberUid;
+    private Long memberUid;
 
     private Long parentId;
 

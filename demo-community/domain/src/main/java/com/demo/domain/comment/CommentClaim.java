@@ -9,16 +9,17 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Id;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Entity
-public class CommentClaim {
+public class CommentClaim implements Serializable {
 
     @Id
     private Long commentId;
 
     @Id
-    private String memberUid;
+    private Long memberUid;
 
     @Column(columnDefinition = "text")
     private String content;

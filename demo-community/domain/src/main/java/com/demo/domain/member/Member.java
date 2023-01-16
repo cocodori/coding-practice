@@ -16,9 +16,9 @@ public class Member {
 
     @Id
     @Column(name = "member_uid")
-    private String uid;
+    private Long uid;
 
-    private long memberId;
+    private Long memberId;
 
     private String nickname;
 

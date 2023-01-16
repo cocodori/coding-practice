@@ -40,10 +40,9 @@ public class Post {
 
     protected Post() {}
 
-    public Post(Long memberUid, String title, String content, LocalDateTime publishedAt) {
+    public Post(Long memberUid, String title, String content) {
         this.memberUid = memberUid;
         this.title = title;
         this.content = content;
-        this.publishedAt = publishedAt;
     }
 }

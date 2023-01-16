@@ -4,4 +4,5 @@ public enum TagType {
 
     REQUIREMENT,
     OPTIONAL,
+    HIDDEN,
 }
