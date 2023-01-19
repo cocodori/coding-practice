@@ -7,7 +7,7 @@ import java.math.BigInteger;
 public record Money(@NonNull BigInteger amount) {
     public static final Money ZERO = Money.of(0L);
 
-    private static Money of(long value) {
+    public static Money of(long value) {
         return new Money(BigInteger.valueOf(value));
     }
 

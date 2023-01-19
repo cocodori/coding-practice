@@ -8,29 +8,24 @@ import lombok.Value;
 import java.time.LocalDateTime;
 
 @Value
+@Getter
 @RequiredArgsConstructor
 public class Activity {
 
-    @Getter
     private ActivityId id;
 
-    @Getter
     @NonNull
     private final Account.AccountId ownerAccountId;
 
-    @Getter
     @NonNull
     private final Account.AccountId sourceAccountId;
 
-    @Getter
     @NonNull
     private final Account.AccountId targetAccountId;
 
-    @Getter
     @NonNull
     private final LocalDateTime timestamp;
 
-    @Getter
     @NonNull
     private final Money money;
 
@@ -49,5 +44,5 @@ public class Activity {
         this.money = money;
     }
 
-    public record ActivityId(Long id) {}
+    public record ActivityId(Long value) {}
 }
