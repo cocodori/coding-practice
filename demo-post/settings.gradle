@@ -1,0 +1,10 @@
+rootProject.name = 'demo-post'
+
+include(
+        "domain",
+        "external-api",
+        "rdb-store"
+)
+
+project(':external-api').projectDir = new File('application/external-api')
+project(':external-api').projectDir = new File('infrastructure/rdb-store')
