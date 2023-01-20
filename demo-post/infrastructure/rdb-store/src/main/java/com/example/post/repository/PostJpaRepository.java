@@ -1,6 +1,6 @@
-package com.example.repository;
+package com.example.post.repository;
 
-import com.example.entity.PostEntity;
+import com.example.post.entity.PostEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PostJpaRepository extends JpaRepository<PostEntity, Long> {

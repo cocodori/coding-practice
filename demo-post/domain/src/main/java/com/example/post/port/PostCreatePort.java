@@ -12,5 +12,5 @@ public interface PostCreatePort {
 
     void savePostVote(Long postId, Long voteId);
 
-    void saveAllImages(Set<String> images);
+    void saveAllImages(Long postId, Set<String> images);
 }

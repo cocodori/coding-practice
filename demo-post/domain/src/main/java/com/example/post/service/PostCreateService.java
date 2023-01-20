@@ -9,13 +9,15 @@ import com.example.post.usecase.PostCreateUseCase;
 import com.example.post.usecase.PostViewUseCase;
 import com.example.post.usecase.command.PostCreateCommand;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Set;
 import java.util.stream.Collectors;
 
+@Service
 @RequiredArgsConstructor
-public class PostCreateService implements PostCreateUseCase, PostViewUseCase {
+class PostCreateService implements PostCreateUseCase, PostViewUseCase {
 
     private final PostCreatePort postCreatePort;
     private final PostTagViewPort postTagViewPort;
@@ -29,7 +31,7 @@ public class PostCreateService implements PostCreateUseCase, PostViewUseCase {
         Long postId = postCreatePort.savePost(command);
 
         // 이미지 등록
-        postCreatePort.saveAllImages(command.images);
+        postCreatePort.saveAllImages(postId, command.images);
 
         // 태그 등록
         saveAllTag(command, postId);

@@ -7,4 +7,4 @@ include(
 )
 
 project(':external-api').projectDir = new File('application/external-api')
-project(':external-api').projectDir = new File('infrastructure/rdb-store')
+project(':rdb-store').projectDir = new File('infrastructure/rdb-store')

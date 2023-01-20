@@ -13,14 +13,14 @@ class PostCreateCommandTest {
     @Test
     @DisplayName("null일 때 ConstraintViolationException")
     void givenTitleIsNull() {
-        assertThatThrownBy(() -> new PostCreateCommand(null, null, null, null))
+        assertThatThrownBy(() -> new PostCreateCommand(null, null, null, null, null, null, null))
                 .isInstanceOf(ConstraintViolationException.class);
     }
 
     @Test
     @DisplayName("제목이 2글자 이하일 때 ConstraintViolationException")
     void givenLessThan2Characters() {
-        assertThatThrownBy(() -> new PostCreateCommand("h", "h", "zzzz", null))
+        assertThatThrownBy(() -> new PostCreateCommand("h", "h", "zzzz", null, null, null, null))
                 .isInstanceOf(ConstraintViolationException.class);
     }
 
@@ -29,7 +29,7 @@ class PostCreateCommandTest {
     void testCreate() {
         String title = "그렇습니까?";
         String content = "기린입니다.";
-        PostCreateCommand command = new PostCreateCommand(title, content, "question", null);
+        PostCreateCommand command = new PostCreateCommand(title, content, "question", null, null, null, null);
 
         assertThat(command.title).isEqualTo(title);
         assertThat(command.content).isEqualTo(content);

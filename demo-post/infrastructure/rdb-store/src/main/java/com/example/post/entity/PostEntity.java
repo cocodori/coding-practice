@@ -1,17 +1,17 @@
-package com.example.entity;
+package com.example.post.entity;
 
-import com.example.post.domain.Post;
 import com.example.post.usecase.command.PostCreateCommand;
 import lombok.AccessLevel;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "post")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class PostEntity {
 

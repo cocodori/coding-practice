@@ -6,7 +6,7 @@ import org.hibernate.validator.constraints.Length;
 import javax.validation.constraints.NotNull;
 import java.util.Set;
 
-public class PostCreateCommand extends SelfValid<PostCreateCommand> {
+public class PostCreateCommand extends SelfValid<PostCreateCommand>{
 
     @NotNull(message = "제목을 입력하세요.")
     @Length(min = 2, max = 50)
@@ -24,31 +24,29 @@ public class PostCreateCommand extends SelfValid<PostCreateCommand> {
     public final Set<String> images;
 
 
-    public PostCreateCommand(String title, String content, String categoryTag, Set<String> hashtags, VoteCommand voteCommand, Set<String> images) {
+    public PostCreateCommand(String title, String content, String categoryTag, Set<String> hashtags, String voteTitle, Set<String> voteItems, Set<String> images) {
         this.title = title;
         this.content = content;
         this.categoryTag = categoryTag;
         this.hashtags = hashtags == null ? Set.of() : hashtags;
-        this.voteCommand = voteCommand;
+        this.voteCommand = VoteCommand.of(voteTitle, voteItems);
         this.images = images;
-        validateSelf();
     }
 
-    public PostCreateCommand(String title, String content, String categoryTag, Set<String> hashtags) {
-        this.title = title;
-        this.content = content;
-        this.categoryTag = categoryTag;
-        this.hashtags = hashtags == null ? Set.of() : hashtags;
-        this.voteCommand = null;
-        this.images = Set.of();
-        validateSelf();
-    }
-
-    public static class VoteCommand {
+    public static class VoteCommand extends SelfValid<VoteCommand> {
         @NotNull
         String title;
 
         @NotNull
         Set<String> items;
+
+        VoteCommand(String title, Set<String> items) {
+            this.title = title;
+            this.items = items;
+        }
+
+        public static VoteCommand of(String voteTitle, Set<String> voteItems) {
+            return new VoteCommand(voteTitle, voteItems);
+        }
     }
 }
