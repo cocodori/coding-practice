@@ -1,13 +1,13 @@
 package tobyspring.helloboot;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-
-import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloApiTest {
     @Test
@@ -16,7 +16,7 @@ public class HelloApiTest {
         TestRestTemplate rest = new TestRestTemplate();
 
         ResponseEntity<String> responseEntity = rest.getForEntity(
-                "http://localhost:8080/hello?name={name}",
+                "http://localhost:8080/app/hello?name={name}",
                 String.class,
                 "Spring"
         );
@@ -36,7 +36,7 @@ public class HelloApiTest {
         TestRestTemplate rest = new TestRestTemplate();
 
         ResponseEntity<String> responseEntity = rest.getForEntity(
-                "http://localhost:8080/hello",
+                "http://localhost:8080/app/hello",
                 String.class
         );
 
