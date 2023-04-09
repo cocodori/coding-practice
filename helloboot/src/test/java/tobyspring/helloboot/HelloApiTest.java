@@ -16,7 +16,7 @@ public class HelloApiTest {
         TestRestTemplate rest = new TestRestTemplate();
 
         ResponseEntity<String> responseEntity = rest.getForEntity(
-                "http://localhost:8080/app/hello?name={name}",
+                "http://localhost:9090/app/hello?name={name}",
                 String.class,
                 "Spring"
         );
@@ -36,7 +36,7 @@ public class HelloApiTest {
         TestRestTemplate rest = new TestRestTemplate();
 
         ResponseEntity<String> responseEntity = rest.getForEntity(
-                "http://localhost:8080/app/hello",
+                "http://localhost:9090/app/hello",
                 String.class
         );
 
