@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  mysql:
+    container_name: tx-db
+    image: mysql
+    environment:
+      MYSQL_DATABASE: "txsn"
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      TZ: 'Asia/Seoul'
+    ports:
+      - '3306:3306'
+    command:
+      - 'mysqld'
+      - '--character-set-server=utf8mb4'
+      - '--collation-server=utf8mb4_unicode_ci'
