@@ -32,6 +32,10 @@ subprojects {
         implementation("org.jetbrains.kotlin:kotlin-reflect")
         testImplementation("org.springframework.boot:spring-boot-starter")
         testImplementation("org.springframework.boot:spring-boot-starter-test")
+        testImplementation("io.kotest:kotest-runner-junit5-jvm:5.6.2")
+        testImplementation("io.kotest:kotest-assertions-core-jvm:5.6.2")
+        implementation("io.kotest:kotest-property-jvm:5.6.2")
+        testImplementation("io.mockk:mockk:1.13.5")
     }
 
     tasks.getByName("bootJar") {
