@@ -6,6 +6,7 @@ import io.kotest.core.spec.style.DescribeSpec
 import io.kotest.matchers.shouldBe
 import io.mockk.every
 import io.mockk.junit5.MockKExtension
+import io.mockk.justRun
 import io.mockk.mockk
 import io.mockk.verify
 import org.junit.jupiter.api.extension.ExtendWith
@@ -16,9 +17,11 @@ import java.util.Random
 internal class PostCrudServiceDescribeSpec : DescribeSpec({
     val postRegister: PostRegister = mockk()
     val postFinder: PostFinder = mockk()
+    val postDeleter: PostDeleter = mockk()
     val postCrudService = PostCrudService(
         postRegister,
-        postFinder
+        postFinder,
+        postDeleter
     )
 
     describe("write") {
@@ -47,6 +50,18 @@ internal class PostCrudServiceDescribeSpec : DescribeSpec({
 
                 verify(exactly = 1) { postFinder.get(postId) }
                 actual shouldBe expected
+            }
+        }
+    }
+
+    describe("delete") {
+        context("postId 주어지면") {
+            val postId = Random().nextLong()
+            justRun { postDeleter.delete(any()) }
+            it("매칭되는 Post 삭제한다") {
+                postCrudService.delete(postId)
+
+                verify(exactly = 1) { postDeleter.delete(postId) }
             }
         }
     }
